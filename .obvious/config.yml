@@ -1,0 +1,4 @@
+# Branch and merge policy for agent-driven setup PRs.
+defaultBranch: main
+mergeMethod: squash   # repo allows merge/rebase/squash; squash preferred for setup commits
+requireHumanMerge: true
